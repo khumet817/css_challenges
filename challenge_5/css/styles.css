@@ -1,0 +1,13 @@
+/* Base styles */
+
+body {
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* Text styles */
+.different {
+    font-size: 1em;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-family: 'Coiny', cursive;
+}
