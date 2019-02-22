@@ -1,0 +1,28 @@
+/* base styles */
+body {
+    margin: 0 auto;
+    padding: 20%;
+}
+
+/* speech bubble styles */
+#speech-bubble {
+    background: rgb(61, 179, 193);
+    position: relative;
+    border-radius: 40%;
+    height: 20vh;
+    width: 30vh;
+}
+
+#speech-bubble::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 34px solid transparent;
+	border-right-color: rgb(61, 179, 193);
+	border-left: 0;
+	margin-top: -34px;
+	margin-left: -34px;
+}
