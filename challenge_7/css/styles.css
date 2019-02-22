@@ -8,9 +8,9 @@ body {
 #speech-bubble {
     background: rgb(61, 179, 193);
     position: relative;
-    border-radius: 40%;
-    height: 20vh;
-    width: 30vh;
+    border-radius: 8%;
+    height: 30vh;
+    width: 45vh;
 }
 
 #speech-bubble::after {
